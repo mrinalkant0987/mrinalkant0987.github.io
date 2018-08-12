@@ -1,0 +1,16 @@
+.title{
+    width: 100%;
+    font-size: 3em;
+    color: #ffca28;
+    padding:20px;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.gallery-thumbs{
+    padding: 50px;
+}

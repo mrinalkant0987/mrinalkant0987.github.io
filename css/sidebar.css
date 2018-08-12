@@ -1,55 +1,3 @@
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-body {
-    position: relative;
-    overflow-x: hidden;
-}
-body,
-html { height: 100%;}
-.nav .open > a, 
-.nav .open > a:hover, 
-.nav .open > a:focus {background-color: transparent;}
-
-.container{
-    width: auto;
-    padding: 0px;
-}
-.dropdown{
-    float: right;
-}
-
-#textfield,
-#mycarousel{
-    position: absolute;
-    background-color: transparent;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-}
-
-#textfield{
-    z-index: 10;
-}
-
-.place-right{
-    float: right;
-}
-
-.align-center{
-    text-align: center;
-}
-
-.label-name{
-    width: 100%;
-    text-align: center;
-}
-
 /*-------------------------------*/
 /*           Wrappers            */
 /*-------------------------------*/
@@ -101,6 +49,22 @@ html { height: 100%;}
 /*-------------------------------*/
 /*     Sidebar nav styles        */
 /*-------------------------------*/
+
+.sidebar-icon{
+    float: right;
+}
+
+.sidebar-logo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.sidebar-label{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
 
 .sidebar-nav {
     position: absolute;
@@ -177,7 +141,7 @@ html { height: 100%;}
     display: block;
     color: #eee;
     text-decoration: none;
-    font-size:15px;
+    font-size:18px;
     padding: 10px 15px 10px 30px;    
 }
 
@@ -341,31 +305,4 @@ html { height: 100%;}
     bottom: 0;
     background-color: rgba(0,0,0,.6);
     z-index: 1;
-}
-
-/*-------------------------------*/
-/*            Gallery            */
-/*-------------------------------*/
-
-.bgcol{
-    background-color: #aaa;
-}
-
-#slider-thumbs{
-    margin-top: 10vh;
-}
-
-.hide-bullets {
-    list-style:none;
-    margin-left: -40px;
-    margin-top:20px;
-}
-
-.thumbnail {
-    padding: 0;
-}
-
-#carousel-bounding-box{
-    padding: 0;
-    border: 0;
 }
