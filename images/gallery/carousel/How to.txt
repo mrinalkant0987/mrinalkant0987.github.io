@@ -1,0 +1,8 @@
+Place Images here with names as:
+"1.jpg"
+"2.jpg"
+...
+
+Designed for 24 Images
+
+Copy and paste same to carousel folder too
